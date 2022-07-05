@@ -7,7 +7,7 @@ const {
     Module
 } = require('../main');
 Module({
-    pattern: 'del',
+    pattern: 'd',
     fromMe: true,
     desc: 'deletes message'
 }, (async (m, t) => {
